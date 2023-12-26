@@ -21,7 +21,10 @@ function Formulario (props){
             imagem,
             time
         })
-        console.log('form foi submetivo', nome, cargo, imagem, time)
+        setNome('')
+        setCargo('')
+        setImagem('')
+        setTime('')
     }
 
     return(
